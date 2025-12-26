@@ -36,3 +36,27 @@ input: ['ghost', 'do', 'not', 'forget', 'this']
 Model prediction: visitation 
 True prediction: visitation
 ```
+## ⚠️ Model Status & Training Behavior
+
+**Current Status:** Overfitted (Work in Progress)
+
+The current LSTM model successfully learns patterns from the training data but shows signs of **overfitting** when evaluated on unseen data. This behavior is expected at this stage due to factors such as a limited dataset size, large vocabulary, and training the model from scratch.
+
+Overfitting here confirms that:
+- ✅ The data preprocessing and pipeline are correct  
+- ✅ The LSTM architecture is functioning as intended  
+- ✅ Gradients, loss computation, and optimization are working  
+
+The next steps focus on improving **generalization**, including:
+- Reducing and tuning vocabulary size  
+- Controlling sequence length  
+- Adding regularization techniques (dropout)  
+- Hyperparameter tuning and experimentation  
+
+### 📉 Training vs Test Loss
+
+The plot below shows the comparison between **training** and **testing**, clearly highlighting the current overfitting behavior:
+
+<img src="plt" alt="Training vs Test Loss" width="500"/>
+
+> This visualization helps track learning progress and guides further improvements to balance training performance and generalization.
