@@ -60,3 +60,7 @@ The plot below shows the comparison between **training** and **testing**, clearl
 <img src="plt" alt="Training vs Test Loss" width="500"/>
 
 > This visualization helps track learning progress and guides further improvements to balance training performance and generalization.
+
+© 2025 dctn  
+This repository is shared for learning purposes.  
+Unauthorized use without attribution is discouraged.
